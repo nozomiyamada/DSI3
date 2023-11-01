@@ -9,8 +9,12 @@ https://airesearch.in.th/releases/wangchanberta-pre-trained-thai-language-model/
 > Supervised Learning (train data with annotation is necessary)
 
 - Text Classification
+    - Spam Mail Detection
+    - Sentiment Analysis
 - Named Entity Recognition
 - Sequence to Sequence
+    - Machine Translation
+    - Chatbot
 
 
 > Unsupervised Learning
@@ -18,7 +22,7 @@ https://airesearch.in.th/releases/wangchanberta-pre-trained-thai-language-model/
 - Word Embeddings
 - Topic Modelling
 
-There are some NLP examples In this repository.
+Here are some NLP examples In this repository.
 
 1. Text Classification with Logistic Regression / Neural Network
 2. Word Embeddings of news articles
