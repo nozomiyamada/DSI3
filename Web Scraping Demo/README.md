@@ -103,7 +103,7 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/#calling-a-tag-is-like-cal
 - `soup.select_one()`, `soup.select()` : find one/all element(s) by CSS selector
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-by-css-class
 
-or you can also use `.xxx` attribute for the first child. In the example below, `soup.a.text` returns the string `link 1`.
+or you can also use `.xxx` attribute for the first child. In the example below, `soup.a.text` returns string `link 1`, and `soup.a.get('href')` returns string `xxx`
 
 ~~~
 <html>
@@ -115,3 +115,20 @@ or you can also use `.xxx` attribute for the first child. In the example below, 
 ~~~
 
 #### `selenium`
+
+- `driver.get()`
+- `driver.page_source()`
+- `driver.execute_script()` - run a JavaScript command
+- `driver.find_element(By.xxx)`
+    - I seldom use this method. 
+    - if you want to scrape the data, to find the target element in `soup` is easier
+    - if you want to do some action with the element, to combine `document.querySelector` and `driver.execute_script()` is more stable
+
+#### `JavaScript`
+
+- `document.getElementById()` - for the elements that have id 
+- `document.querySelector()`
+- `document.querySelectorAll()`
+- `element.scrollIntoView()`
+- `element.value`
+- `element.click()`
