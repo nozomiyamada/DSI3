@@ -34,3 +34,4 @@ Here are some NLP examples In this repository.
 - Thai National Corpus (TNC) : https://www.arts.chula.ac.th/ling/tnc3/
 - Thai Web Corpus (My Site) : https://www.thaicorpus.net/
 - Embedding Projector : https://projector.tensorflow.org/
+- _Speech and Language Processing_ by Dan Jurafsky : https://web.stanford.edu/~jurafsky/slp3/
