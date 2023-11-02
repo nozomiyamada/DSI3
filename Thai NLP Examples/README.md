@@ -27,3 +27,9 @@ Here are some NLP examples In this repository.
 1. Text Classification with Logistic Regression / Neural Network
 2. Word Embeddings of news articles
 3. Topic Modelling of news articles
+
+# some useful tools
+
+- Thai National Corpus (TNC) : https://www.arts.chula.ac.th/ling/tnc3/
+- Thai Web Corpus (My Site) : https://www.thaicorpus.net/
+- Embedding Projector : https://projector.tensorflow.org/
