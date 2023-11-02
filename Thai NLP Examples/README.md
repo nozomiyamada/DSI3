@@ -30,6 +30,7 @@ Here are some NLP examples In this repository.
 
 # some useful tools
 
+- AI for Thai - Basic NLP : https://aiforthai.in.th/service_bn.php
 - Thai National Corpus (TNC) : https://www.arts.chula.ac.th/ling/tnc3/
 - Thai Web Corpus (My Site) : https://www.thaicorpus.net/
 - Embedding Projector : https://projector.tensorflow.org/
