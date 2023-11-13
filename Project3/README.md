@@ -2,9 +2,9 @@
 
 ## Objective
 
-**Nozomi NLP Co., Ltd.** is a company focusing on artificial intelligence about **Natural Language Processing (NLP)**. But due to the name of company, those who misunderstand for **Neuro Linguistic Programming (NLP)** send inquiry E-mails to us. Thus, we need a classifier to inspect such a irrelevant E-mail.
+**Nozomi NLP Co., Ltd.** is a company focusing on artificial intelligence about **Natural Language Processing (NLP)**. But due to the name of company, those who misunderstand for **Neuro Linguistic Programming (NLP)** send inquiry E-mails to us. Thus, we need a classifier to inspect such a irrelevant E-mail automatically.
 
-In [reddit](https://www.reddit.com/), there are webboards called _subreddit_ where people are discussing according to its topic. Many text data of subreddit about these 2 NLP may be good train data to create a classifier.
+In [reddit](https://www.reddit.com/), there are webboards called _subreddit_ where people are discussing according to its topic. Many text data of subreddit about these 2 NLP may be good train data to create a classifier model.
 
 ## Outflow
 
@@ -39,6 +39,5 @@ In [reddit](https://www.reddit.com/), there are webboards called _subreddit_ whe
 
 - remove URLs
 - tokenization and lemmatization
-- the word **NLP** is not data leakage
 
 ## Modelling
