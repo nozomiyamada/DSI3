@@ -4,7 +4,9 @@
 
 **Nozomi NLP Co., Ltd.** is a company focusing on artificial intelligence about **Natural Language Processing (NLP)**. But due to the name of company, those who misunderstand for **Neuro Linguistic Programming (NLP)** send inquiry E-mails to us. Thus, we need a classifier to inspect such a irrelevant E-mail.
 
-## Methodology Outflow
+In [reddit](https://www.reddit.com/), there are many webboards called _subreddit_ where people are discussing according to its topic. Text data of subreddit about these 2 NLP in reddits can be helpful to create a classifier.
+
+## Outflow
 
 1. scrape reddit posts about _Natural Language Processing_ and _Neuro Linguistic Programming_
     - `code/scrape_reddit.ipynb`
