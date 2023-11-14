@@ -6,7 +6,7 @@
 
 In [reddit](https://www.reddit.com/), there are webboards called _subreddit_ where people are discussing according to its topic. Many text data of subreddit about these 2 NLP may be good train data to create a classifier model.
 
-## Outflow
+## workflow
 
 1. scrape reddit posts about _Natural Language Processing_ and _Neuro Linguistic Programming_
     - `code/scrape_reddit.ipynb`
