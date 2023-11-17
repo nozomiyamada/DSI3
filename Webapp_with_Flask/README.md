@@ -1,3 +1,9 @@
+# Web Application with `Flask`
+
+example (my website) - created by `Flask`
+
+- https://www.thaicorpus.net/
+
 # virtual environment
 
 virtual environment ตือคือสภาพแวดล้อม python ที่จะแยกแต่ละโปรเจคออกจาก python หลักที่อยู่ในคอม ซึ่งใช้เพื่อทดลองว่า app ที่สร้างจะสามารถทำงานที่อื่นได้หรือไม่
@@ -116,25 +122,25 @@ $ source .venv/bin/activate  # activate
 
 เวลาปิด application กด `CTRL+C` or `command+C`
 
-# top page -> rendering page 
+### top page -> rendering page 
 
 `http://0.0.0.0:8000/`
 
 ![toppage](https://user-images.githubusercontent.com/44984892/111415872-61cfbf80-8715-11eb-90f4-d711cbe3f5cd.png)
 
-# second page -> rendering page & send form (POST method)
+### second page -> rendering page & send form (POST method)
 
 `http://0.0.0.0:8000/2`
 
 ![page2](https://user-images.githubusercontent.com/44984892/111420500-ea525e00-871d-11eb-9e5d-fbecc81c7b84.png)
 
-# third page -> rendering page with static file
+### third page -> rendering page with static file
 
 `http://0.0.0.0:8000/3`
 
 ![page3](https://user-images.githubusercontent.com/44984892/111420593-179f0c00-871e-11eb-9505-748dadf4d50e.png)
 
-# any word -> return json 
+### any word -> return json 
 
 `http://0.0.0.0:8000/(anyword)`
 
