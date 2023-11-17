@@ -37,7 +37,7 @@ install package ที่ต้องการเสร็จแล้ว output
 # packages ที่ต้องการเพื่อสร้าง app
 
 - `flask`
-- `gunicorn`
+- `gunicorn` (optional)
     - application server สำหรับ python
     - ไม่จำเป็น แต่มีดีกว่าตอนที่ deploy บน web
 
