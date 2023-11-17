@@ -154,7 +154,7 @@ $ source run.sh
 
 ![page3](https://user-images.githubusercontent.com/44984892/111420593-179f0c00-871e-11eb-9505-748dadf4d50e.png)
 
-## any word after base URL-> return json 
+## any word after base URL -> return json 
 
 `http://0.0.0.0:8000/(anyword)`
 
