@@ -125,7 +125,10 @@ $ source .venv/bin/activate  ## activate
 
 ใส่ `http://0.0.0.0:8000/` ใน URL bar 
 
-เวลาปิด application กด `CTRL+C` (win) or `command+C` (mac)
+เวลาปิด application 
+- กด `CTRL+C` (win) or `command+C` (mac)
+- แล้วพิมพ์ `deactivate`
+
 
 ### top page -> rendering page 
 
