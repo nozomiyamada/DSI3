@@ -24,8 +24,14 @@ $ source .venv/bin/activate  ## activate virtual environment
 
 install package ที่ต้องการเสร็จแล้ว output เป็น `requirements.txt` 
 
-~~~
+~~~bash
 (.venv) $ pip freeze > requirements.txt
+~~~
+
+เวลาตั้ง environment บน server ใช้ `requirements.txt` แล้ว install ได้ทีเดียว
+
+~~~bash
+(.venv) $ pip install -r requirements.txt
 ~~~
 
 # packages ที่ต้องการเพื่อสร้าง app
@@ -105,8 +111,8 @@ if __name__ == "__main__":
 # run application
 
 ~~~
-$ source .venv/bin/activate  # activate 
-(.venv) $ python app.py
+$ source .venv/bin/activate  ## activate 
+(my_venv) $ python app.py
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
@@ -115,12 +121,11 @@ $ source .venv/bin/activate  # activate
  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 261-778-169
 ~~~
 
 ใส่ `http://0.0.0.0:8000/` ใน URL bar 
 
-เวลาปิด application กด `CTRL+C` or `command+C`
+เวลาปิด application กด `CTRL+C` (win) or `command+C` (mac)
 
 ### top page -> rendering page 
 

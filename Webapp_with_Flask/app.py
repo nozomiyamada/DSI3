@@ -9,7 +9,7 @@ app = Flask(__name__,
 ### top page ###
 @app.route('/', methods=['GET', 'POST'])
 def page_top():
-    return render_template('toppage.html') # rendering "templates/toppage.html"
+    return render_template('toppage.html') 
 
 ### second page ###
 @app.route('/2', methods=['GET', 'POST'])
