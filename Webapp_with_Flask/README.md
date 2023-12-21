@@ -15,23 +15,23 @@ virtual environment ตือคือสภาพแวดล้อม python �
 ~~~bash
 $ cd XX/XX  ## ย้ายไปที่ folder ที่จะสร้าง virtual environment)
 $ python3 -m venv my_venv  ## สร้าง virtual environment
-$ source .venv/bin/activate  ## activate virtual environment
-(.venv) $ pip install flask  ## install package ต่างๆ
-(.venv) $ pip install numpy
-(.venv) $ pip install pandas
+$ source my_venv/bin/activate  ## activate virtual environment
+(my_venv) $ pip install flask  ## install package ต่างๆ
+(my_venv) $ pip install numpy
+(my_venv) $ pip install pandas
 ...
 ~~~
 
 install package ที่ต้องการเสร็จแล้ว output เป็น `requirements.txt` 
 
 ~~~bash
-(.venv) $ pip freeze > requirements.txt
+(my_venv) $ pip freeze > requirements.txt
 ~~~
 
 เวลาตั้ง environment บน server ใช้ `requirements.txt` แล้ว install ได้ทีเดียว
 
 ~~~bash
-(.venv) $ pip install -r requirements.txt
+(my_venv) $ pip install -r requirements.txt
 ~~~
 
 ## packages ที่ต้องการเพื่อสร้าง app
